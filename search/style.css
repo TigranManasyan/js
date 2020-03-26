@@ -1,0 +1,44 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	outline:none;
+}
+
+html, body {
+	height:100%;
+}
+
+.search-banner {
+	width:90%;
+	height:40px;
+	border:1px solid aqua;
+	border-radius:20px;
+	margin:15px auto;
+}
+
+.search-banner input {
+	width:100%;
+	height:100%;
+	border-radius:20px;
+	border:none;
+	font:italic 16px Tahoma;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.result-banner {
+	width:90%;
+	padding:10px;
+	border:1px solid black;
+	border-radius:10px;
+	margin:0px auto;
+}
+
+#result span {
+	color:red;
+	font:14px Tahoma;
+	display:inline-block;
+	padding-top:10px;
+	padding-bottom:10px;
+}
